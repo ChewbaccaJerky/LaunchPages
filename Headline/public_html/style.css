@@ -1,0 +1,145 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Libre Baskerville', sans-serif;
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+/* Header */
+
+.header {
+    margin: 40px 0 60px 0;
+}
+
+.header h1 {
+    font-size: 25px;
+}
+
+.nav {
+    border-bottom: #DDD solid;
+    border-width: 1px;
+    padding: 0;
+}
+
+
+.nav li {
+    font-size: 15px;
+    display: inline-block;
+    text-align: right;
+    text-decoration: none;
+}
+
+.nav li a {
+    color: #000;
+}
+
+.jumbotron {
+  background-color: transparent;
+  height: 500px;
+}
+/*
+.jumbotron * {
+    border-style: solid;
+}
+*/
+
+.jumbotron .container {
+    margin-left: 100px;
+}
+
+.jumbotron h1 {
+    color: #000;
+    font-size: 56px;
+    text-shadow: none;
+}
+
+span {
+    color: #FFC200;
+}
+
+/* BANNER */
+
+.banner {
+    background-color: #333333;
+    color: #FFF;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.banner h1 {
+    font-size: 40px;
+}
+
+.banner p {
+    font-size: 16px;
+}
+
+/* CARDS */
+
+.cards {
+    background-color: #FFC200;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.cards h2 {
+    font-size: 35px;
+    margin: 50px 0;
+}
+
+
+
+.cards .col-md-4 img {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: #000;
+    color: #FFF;
+}
+
+.footer .row {
+    margin: 50px 0;
+}
+
+.footer a {
+    margin: 0 7px;
+}
+
+.footer .col-md-2 a img {
+    height: 25px;
+    width: 25px;
+}
+
+@media (max-width: 992px) {
+  .col-md-4 {
+    margin: 0 auto 0;
+    text-align: center;
+    width: 100%;
+  }
+  .cards img {
+    width: 60%;
+  }
+}
+
+@media (max-width: 500px) {
+  .header h1 {
+    text-align: center;
+  }
+
+  .nav li {
+    text-align: center;
+    width: 100%;
+  }
+
+  .cards img {
+    width: 100%;
+  }
+}
