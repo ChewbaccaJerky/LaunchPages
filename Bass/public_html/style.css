@@ -1,0 +1,114 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 29, 2016, 12:43:03 AM
+    Author     : John
+*/
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #161718;
+  color: #FFF;
+}
+
+/*Jumbotron*/
+
+.jumbotron {
+    color: #FFF;
+    background: url("https://s3.amazonaws.com/codecademy-content/projects/bass/bg.jpg")
+                no-repeat
+                center
+                center;
+    background-size: cover;
+    background-color: transparent;
+}
+.jumbotron li {
+    color: #FFF;
+    display:inline;
+    text-decoration: none;
+}
+
+.jumbotron li a {
+    color: #FFF;
+    padding: 10px 30px;
+    font-weight: bold;
+}
+
+.jumbotron .col-md-9 {
+    text-align: right;
+}
+
+.btn-default {
+    background-color: #FF003D;
+    border-radius: 0;
+    border: none;
+}
+
+.btn-default:hover {
+    color: #000;
+    background-color: #FF003D;
+    border: none;
+}
+
+.main {
+    margin: 40px 0 200px 0;
+}
+
+/* Supporting */
+.supporting {
+    padding: 0;
+}
+
+.supporting-1, .supporting-3 {
+    padding: 30px 0;
+}
+
+.supporting-2 {
+    padding: 30px 0;
+    background-color: #000;
+}
+
+br {
+    clear: both;
+}
+
+.supporting-4 {
+    background: url("https://s3.amazonaws.com/codecademy-content/projects/bass/feature.jpg") no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    padding: 150px 0;
+}
+
+
+/* Footer */
+
+.footer {
+    padding: 50px 0 35px 0;
+    background-color: #000;
+}
+.footer h4 {
+    font-size: 15px;
+}
+
+.footer ul {
+    padding: 0;
+}
+.footer li {
+    list-style: none;
+    font-size: 13px;
+    
+}
+
+.footer li a {
+    color: #AAA;
+    padding: 5px 0;
+    display: inline-block;
+}
+
+.footer li a {
+    border-bottom-color: #FFFFFF;
+}
