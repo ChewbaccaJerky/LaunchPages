@@ -1,0 +1,70 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 28, 2016, 1:09:29 PM
+    Author     : John
+*/
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: url("https://ae01.alicdn.com/kf/HTB18yb5JVXXXXbjXXXXq6xXFXXXh/Photo-Backdrops-Children-Vinyl-Photo-Props-for-Studio-Photography-font-b-Background-b-font-font-b.jpg")
+                no-repeat center;
+    background-size: cover;
+    color: #fff;
+}
+
+.container {
+  max-width: 940px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.header .container {
+    padding: 30px 0;
+    border-bottom: 1px solid #9DCCB6;
+}
+
+.btn {
+    background-color: #9DCCB6;
+    color: #FFF;
+}
+
+.btn:hover {
+    background-color: #9DCCB6;
+    color: #FFF;
+}
+
+.main .container {
+    padding: 30px 0;
+    border-bottom: 1px solid #9DCCB6;
+}
+
+.footer {
+    padding: 30px 0;
+}
+
+/*
+.footer * {
+    border-style: solid;
+}
+*/
+
+.footer ul {
+    padding: 0;
+}
+
+.footer .container li {
+    display: inline-block;
+    margin-right: 10px;
+}
